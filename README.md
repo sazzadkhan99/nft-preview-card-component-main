@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component
 
-This is a solution to the [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U/product-preview-card-component-GO7UmttRfa).
+This is a solution to the [NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
 
 ## Table of contents
 
