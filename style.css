@@ -21,6 +21,7 @@ body{
   padding: 4rem 2rem;
   display: flex; 
   justify-content: center;
+  align-items: center;
 }
 img{
   max-width: 100%;
@@ -36,24 +37,26 @@ img{
 .image_area{
   position: relative;
   cursor: pointer;
+
   
 }
 .main_image{
     border-radius: .75rem; 
+    display: block; /* Prevent unwanted whitespace below image */
     
 }
 .overlay{
   background-color: var(--Cyan400);
-  width: 100%;
-  height: 100%;
-  position: absolute; 
-  top:50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-   border-radius: .75rem; 
-   opacity: 0;
-   visibility: hidden;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: .75rem;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none; /* optional: stops blocking click */
+}
 .hover_icon{
   position: absolute;
   top:50%;
@@ -149,4 +152,3 @@ body{
   border-radius: 1rem;
 }
 }
-
